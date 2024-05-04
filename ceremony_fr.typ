@@ -32,10 +32,16 @@
 #set page(background: BACKGROUND, margin: MARGIN)
 #set text(font: "TT Chocolates Trl", size: 16pt, weight: "medium")
 
-= Test de titre
-#lorem(200)
-= 1er discours
-#lorem(200)
+= Discours 1
+#read("speeches/1_FR.txt")
+= Voeux du marié
+#read("speeches/Groom_FR.txt")
+= Voeux de la mariée
+#read("speeches/Bride_FR.txt")
+= Discours 2
+#read("speeches/2_FR.txt")
+= Discours 3
+#read("speeches/3_FR.txt")
 
 // Back page
 #set page(background: BACK)

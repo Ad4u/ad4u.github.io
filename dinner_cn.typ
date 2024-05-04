@@ -32,10 +32,20 @@
 #set page(background: BACKGROUND, margin: MARGIN)
 #set text(font: "TT Chocolates Trl", size: 16pt, weight: "medium")
 
-= Test de titre
-#lorem(200)
-= 1er discours
-#lorem(200)
+= 感谢
+#read("speeches/ThankYou_CN.txt")
+= 发言稿 4
+#read("speeches/4_CN.txt")
+= 发言稿 5
+#read("speeches/5_CN.txt")
+= 发言稿 6
+#read("speeches/6_CN.txt")
+= 发言稿 7
+#read("speeches/7_CN.txt")
+= 发言稿 8
+#read("speeches/8_CN.txt")
+= 发言稿 9
+#read("speeches/9_CN.txt")
 
 // Back page
 #set page(background: BACK)
