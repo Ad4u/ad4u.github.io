@@ -32,8 +32,14 @@
 #set page(background: BACKGROUND, margin: MARGIN)
 #set text(font: "TT Chocolates Trl", size: 16pt, weight: "medium")
 
+= Bienvenue
+#read("speeches/greetings_FR.txt")
+= Discours MC
+#read("speeches/mc_FR.txt")
 = Discours 1
 #read("speeches/1_FR.txt")
+= Voeux
+#read("speeches/vows_FR.txt")
 = Voeux du marié
 #read("speeches/Groom_FR.txt")
 = Voeux de la mariée
@@ -42,6 +48,8 @@
 #read("speeches/2_FR.txt")
 = Discours 3
 #read("speeches/3_FR.txt")
+= Fin
+#read("speeches/remarks_FR.txt")
 
 // Back page
 #set page(background: BACK)

@@ -6,7 +6,7 @@
 #let FRONT = image("assets/front.jpg", width: WIDTH, height: HEIGHT)
 #let BACK = image("assets/back.jpg", width: WIDTH, height: HEIGHT)
 
-#set document(title: "Cérémonie de mariage de Betty & Romain")
+#set document(title: "Betty and Romain's wedding dinner")
 
 #show heading: item => [
   #pagebreak()
@@ -26,25 +26,25 @@
 #set text(font: "Better Smile", size: 44pt, weight: "medium")
 #set page(background: FRONT)
 #set page(margin: (top: FRONT_TOP_MARGIN))
-#align(center)[Cérémonie \ de \ mariage \ de \ Betty & Romain]
+#align(center)[Betty \ and \ Romain's \ wedding \ dinner]
 
 // Body
 #set page(background: BACKGROUND, margin: MARGIN)
 #set text(font: "TT Chocolates Trl", size: 16pt, weight: "medium")
 
-= 感谢
+= Thank you
 #read("speeches/ThankYou_CN.txt")
-= 发言稿 4
+= Speech 4
 #read("speeches/4_CN.txt")
-= 发言稿 5
+= Speech 5
 #read("speeches/5_CN.txt")
-= 发言稿 6
+= Speech 6
 #read("speeches/6_CN.txt")
-= 发言稿 7
+= Speech 7
 #read("speeches/7_CN.txt")
-= 发言稿 8
+= Speech 8
 #read("speeches/8_CN.txt")
-= 发言稿 9
+= Speech 9
 #read("speeches/9_CN.txt")
 
 // Back page

@@ -6,7 +6,7 @@
 #let FRONT = image("assets/front.jpg", width: WIDTH, height: HEIGHT)
 #let BACK = image("assets/back.jpg", width: WIDTH, height: HEIGHT)
 
-#set document(title: "Cérémonie de mariage de Betty & Romain")
+#set document(title: "Betty and Romain's wedding dinner")
 
 #show heading: item => [
   #pagebreak()
@@ -26,7 +26,7 @@
 #set text(font: "Better Smile", size: 44pt, weight: "medium")
 #set page(background: FRONT)
 #set page(margin: (top: FRONT_TOP_MARGIN))
-#align(center)[Cérémonie \ de \ mariage \ de \ Betty & Romain]
+#align(center)[Betty \ and \ Romain's \ wedding \ dinner]
 
 // Body
 #set page(background: BACKGROUND, margin: MARGIN)
