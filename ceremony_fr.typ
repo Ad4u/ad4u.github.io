@@ -29,28 +29,28 @@
 #align(center)[Cérémonie \ de \ mariage \ de \ Betty & Romain]
 
 // Body
-#show par: set block(spacing: 10pt)
+#show par: set block(spacing: 16pt)
 #set page(background: BACKGROUND, margin: MARGIN)
 #set text(font: "TT Chocolates Trl", size: 15pt, weight: "medium")
 
 = Bienvenue
-#read("speeches/greetings_FR.txt")
+#include "speeches/greetings_FR.txt"
 = Discours MC
-#read("speeches/mc_FR.txt")
+#include "speeches/mc_FR.txt"
 = Discours 1
-#read("speeches/1_FR.txt")
+#include "speeches/1_FR.txt"
 = Voeux
-#read("speeches/vows_FR.txt")
+#include "speeches/vows_FR.txt"
 = Voeux du marié
-#read("speeches/Groom_FR.txt")
+#include "speeches/Groom_FR.txt"
 = Voeux de la mariée
-#read("speeches/Bride_FR.txt")
+#include "speeches/Bride_FR.txt"
 = Discours 2
-#read("speeches/2_FR.txt")
+#include "speeches/2_FR.txt"
 = Discours 3
-#read("speeches/3_FR.txt")
+#include "speeches/3_FR.txt"
 = Fin
-#read("speeches/remarks_FR.txt")
+#include "speeches/remarks_FR.txt"
 
 // Back page
 #set page(background: BACK)
